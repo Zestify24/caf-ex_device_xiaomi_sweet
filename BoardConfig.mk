@@ -28,6 +28,9 @@ AUDIO_FEATURE_ENABLED_SVA_MULTI_STAGE := true
 TARGET_BOOTLOADER_BOARD_NAME := sm6150
 TARGET_NO_BOOTLOADER := true
 
+# Bluetooth
+TARGET_USE_QTI_BT_STACK := true
+
 # Kernel
 BOARD_KERNEL_CMDLINE := androidboot.hardware=qcom \
                         androidboot.memcg=1 \
