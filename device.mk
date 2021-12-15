@@ -14,6 +14,10 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 # AAPT
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
+# APN
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/etc/apns-conf.xml:system/etc/apns-conf.xml
+
 # AudioFX
 TARGET_EXCLUDES_AUDIOFX := true
 
