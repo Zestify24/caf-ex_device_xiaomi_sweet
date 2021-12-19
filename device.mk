@@ -1,3 +1,7 @@
+# Platform
+BOARD_USES_QCOM_HARDWARE := true
+TARGET_BOARD_PLATFORM := sm6150
+
 # Shipping level
 PRODUCT_SHIPPING_API_LEVEL := 30
 
