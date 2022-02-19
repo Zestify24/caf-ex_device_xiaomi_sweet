@@ -131,6 +131,9 @@ PRODUCT_PACKAGES += \
     SystemUIOverlaySweet \
     TelephonyOverlaySweet
 
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-pa
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.ims.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/android.hardware.telephony.ims.xml \
@@ -191,7 +194,7 @@ PRODUCT_PACKAGES += \
 TARGET_COMMON_QTI_COMPONENTS := \
     display \
     perf \
-    wfd \
+    wfd
 
 PRODUCT_BOOT_JARS += \
     telephony-ext
