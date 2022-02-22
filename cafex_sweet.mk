@@ -8,6 +8,8 @@ $(call inherit-product, device/xiaomi/sweet/device.mk)
 # Inherit common Caf-EX configurations
 $(call inherit-product, vendor/extended/config/common.mk)
 
+TARGET_SUPPORTS_QUICK_TAP := true
+
 PRODUCT_NAME := cafex_sweet
 PRODUCT_DEVICE := sweet
 PRODUCT_BRAND := Redmi
