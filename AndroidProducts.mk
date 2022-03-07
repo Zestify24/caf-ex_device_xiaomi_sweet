@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cafex_sweet.mk
+    $(LOCAL_DIR)/blaster_sweet.mk
 
 COMMON_LUNCH_CHOICES := \
-    cafex_sweet-eng \
-    cafex_sweet-userdebug \
-    cafex_sweet-user
+    blaster_sweet-eng \
+    blaster_sweet-userdebug \
+    blaster_sweet-user
