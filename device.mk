@@ -212,7 +212,6 @@ PRODUCT_PACKAGES += \
 # QTI Common
 TARGET_COMMON_QTI_COMPONENTS := \
     display \
-    perf \
     wfd
 
 PRODUCT_BOOT_JARS += \
